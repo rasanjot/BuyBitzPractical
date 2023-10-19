@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.12">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuyBitz.Practical.Business\BuyBitz.Practical.Business.csproj" />
+    <ProjectReference Include="..\BuyBitz.Practical.Dal\BuyBitz.Practical.DataAccess.csproj" />
+    <ProjectReference Include="..\BuyBitz.Practical.Dto\BuyBitz.Practical.Model.csproj" />
+    <ProjectReference Include="..\BuyBitz.Practical.Utils\BuyBitz.Practical.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuyBitz.Practical.Dal\BuyBitz.Practical.DataAccess.csproj" />
+    <ProjectReference Include="..\BuyBitz.Practical.Dto\BuyBitz.Practical.Model.csproj" />
+    <ProjectReference Include="..\BuyBitz.Practical.Utils\BuyBitz.Practical.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

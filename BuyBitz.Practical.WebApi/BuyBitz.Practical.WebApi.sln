@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyBitz.Practical.WebApi", "BuyBitz.Practical.WebApi.csproj", "{458F4B8B-FBB2-4AA3-8FC7-EC89685CA31D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyBitz.Practical.Model", "..\BuyBitz.Practical.Dto\BuyBitz.Practical.Model.csproj", "{56216C45-084A-45F1-B366-471B844B68A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyBitz.Practical.DataAccess", "..\BuyBitz.Practical.Dal\BuyBitz.Practical.DataAccess.csproj", "{5CECC353-9DFF-4066-B0B5-D6BF277240AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyBitz.Practical.Utility", "..\BuyBitz.Practical.Utils\BuyBitz.Practical.Utility.csproj", "{DAF03F51-1377-480F-A2ED-4F356515006B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuyBitz.Practical.Business", "..\BuyBitz.Practical.Business\BuyBitz.Practical.Business.csproj", "{AA596D7D-2BB4-45FF-9A9E-244C3371AC08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{458F4B8B-FBB2-4AA3-8FC7-EC89685CA31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458F4B8B-FBB2-4AA3-8FC7-EC89685CA31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458F4B8B-FBB2-4AA3-8FC7-EC89685CA31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458F4B8B-FBB2-4AA3-8FC7-EC89685CA31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56216C45-084A-45F1-B366-471B844B68A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56216C45-084A-45F1-B366-471B844B68A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56216C45-084A-45F1-B366-471B844B68A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56216C45-084A-45F1-B366-471B844B68A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CECC353-9DFF-4066-B0B5-D6BF277240AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CECC353-9DFF-4066-B0B5-D6BF277240AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CECC353-9DFF-4066-B0B5-D6BF277240AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CECC353-9DFF-4066-B0B5-D6BF277240AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF03F51-1377-480F-A2ED-4F356515006B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF03F51-1377-480F-A2ED-4F356515006B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF03F51-1377-480F-A2ED-4F356515006B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF03F51-1377-480F-A2ED-4F356515006B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA596D7D-2BB4-45FF-9A9E-244C3371AC08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA596D7D-2BB4-45FF-9A9E-244C3371AC08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA596D7D-2BB4-45FF-9A9E-244C3371AC08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA596D7D-2BB4-45FF-9A9E-244C3371AC08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5C8BFC7-9BEA-4539-89BD-8F4150807210}
+	EndGlobalSection
+EndGlobal
